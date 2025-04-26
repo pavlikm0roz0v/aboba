@@ -12,7 +12,7 @@ struct Patient {
     char phoneNumber[15];
     char visitDate[11];
 };
-
+//методы
 void Create(FILE* file);
 void ShowPatients(FILE* file);
 void SearchPatient(FILE* file);
